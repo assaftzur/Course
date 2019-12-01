@@ -2,16 +2,19 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10374" started-at="2019-11-26T13:32:39Z" finished-at="2019-11-26T13:32:49Z">
+  <suite name="Default suite" duration-ms="11376" started-at="2019-12-01T11:51:51Z" finished-at="2019-12-01T11:52:03Z">
     <groups>
+      <group name="Sanity,Regression">
+        <method signature="HomePageTests.firstStep()[pri:3, instance:tests.HomePageTests@4b9e13df]" name="firstStep" class="tests.HomePageTests"/>
+      </group> <!-- Sanity,Regression -->
     </groups>
-    <test name="Default test" duration-ms="10374" started-at="2019-11-26T13:32:39Z" finished-at="2019-11-26T13:32:49Z">
+    <test name="Default test" duration-ms="11376" started-at="2019-12-01T11:51:51Z" finished-at="2019-12-01T11:52:03Z">
       <class name="tests.HomePageTests">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.HomePageTests@26be92ad]" name="beforeMethod" is-config="true" duration-ms="8519" started-at="2019-11-26T13:32:39Z" finished-at="2019-11-26T13:32:47Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.HomePageTests@4b9e13df]" name="beforeMethod" is-config="true" duration-ms="9750" started-at="2019-12-01T11:51:51Z" finished-at="2019-12-01T11:52:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="firstStep()[pri:0, instance:tests.HomePageTests@26be92ad]" name="firstStep" duration-ms="406" started-at="2019-11-26T13:32:47Z" finished-at="2019-11-26T13:32:48Z">
+        <test-method status="FAIL" signature="firstStep()[pri:3, instance:tests.HomePageTests@4b9e13df]" name="firstStep" duration-ms="354" started-at="2019-12-01T11:52:01Z" finished-at="2019-12-01T11:52:02Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [ASsaf] but found [Assaf]]]>
@@ -56,7 +59,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstStep -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.HomePageTests@26be92ad]" name="afterMethod" is-config="true" duration-ms="1404" started-at="2019-11-26T13:32:48Z" finished-at="2019-11-26T13:32:49Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.HomePageTests@4b9e13df]" name="afterMethod" is-config="true" duration-ms="1203" started-at="2019-12-01T11:52:02Z" finished-at="2019-12-01T11:52:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
